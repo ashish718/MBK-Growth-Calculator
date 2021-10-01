@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const dotenv = require('dotenv').config();
 const cors = require('cors')
 const csv = require('csvtojson');
 const bodyParser = require('body-parser');
