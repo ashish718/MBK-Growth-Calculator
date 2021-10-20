@@ -10,7 +10,9 @@ function Nav() {
         <Link to="/">
           <li className="li-nav">Calculator</li>
         </Link>
-
+        <Link to="/quater">
+          <li className="li-nav">Quater Calculator</li>
+        </Link>
       </ul>
     </nav>
 
